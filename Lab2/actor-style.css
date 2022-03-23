@@ -1,0 +1,62 @@
+body{
+    background-color: white;
+    margin-left: 1px;
+    margin-top:0;
+    font-size: 17px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: circle;
+}
+header{
+    background-color: rgb(176,176,176);
+}
+aside{
+    background-color: rgb(240,240,242);
+    border: 1px solid rgb(207,207,216);
+}
+input{
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+}
+.search {
+    width:300px;
+}
+.submit-search{
+    width: 70px;
+    background-color: rgb(140,140,140);
+    font-weight: bolder;
+    border: 1px solid rgb(161, 161, 161);
+}
+.submit-login{
+    width: 70px;
+    background-color: rgb(202, 202, 202);
+    font-weight: bold;
+    border: 1px solid rgb(206, 206, 206);
+}
+section{
+    margin-right: 3px;
+}
+footer{
+    border-top: 1px solid rgb(207,207,216);
+}
+
+table{
+    border-collapse: collapse;
+}
+tr{
+    border: 2px solid black;
+}
+td, th{
+    border: 1px solid black;
+}
+thead{
+    background-color: rgb(230,230,230);
+}
+tbody td {
+    text-align: center;
+}
