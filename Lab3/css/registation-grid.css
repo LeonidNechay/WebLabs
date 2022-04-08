@@ -8,7 +8,6 @@ body{
    grid-template-areas:
    "header header"
    "section section";
-
 }
 header{
     grid-area: header;

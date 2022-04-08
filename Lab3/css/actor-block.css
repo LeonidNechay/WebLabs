@@ -1,24 +1,27 @@
 body{
-    display: grid;
-    grid-template-columns: minmax(200px, 250px) auto 200px;
-    grid-template-rows: 50px auto 100px;
-    grid-template-areas:
-    "header header header"              
-    "aside content content"
-    "footer footer fotter";
     margin: 0;
+    display: block;
 }
 header{
-    width: 100%;
-    grid-area: header;
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 50px;
+}
+.block-content{
+    position: relative;
 }
 aside{
-    height: 100%;
+    float:left;
+    min-width: 200px;
+    max-width: 250px;
     width: 240px;
+    height: 1506px;
     margin-left: 1px;
-    grid-area: aside;
 }
 section{
+    width: auto;
+    margin-left: 250px;
     grid-area: content;
     display: grid;
     grid-template-columns: auto 200px;
@@ -54,5 +57,5 @@ section{
     grid-area: img;
 }
 footer{
-    grid-area: footer;
+    height: 100px;
 }
