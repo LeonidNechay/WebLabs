@@ -1,0 +1,21 @@
+body{
+    background-color: white;
+}
+header{
+    text-align: center;
+}
+aside{
+    border: 2px solid rgb(245, 219, 171);
+    background-color: rgb(230,218,206);
+}
+footer{
+    background-color: rgb(230,218,206);
+    border: 2px solid rgb(245, 219, 171);
+}
+a.text {
+    text-decoration: none;
+    color: black;
+}
+ul {
+    list-style: none;
+}

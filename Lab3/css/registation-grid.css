@@ -1,0 +1,29 @@
+body{
+   display: grid;
+   margin: 50px auto;
+   width: 600px;
+   height: 550px;
+   grid-template-columns: 300px 300px;
+   grid-template-rows: 50px 500px;
+   grid-template-areas:
+   "header header"
+   "section section";
+
+}
+header{
+    grid-area: header;
+}
+section{
+    grid-area: section;
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 500px;
+    grid-template-areas:
+    "another-reg common-reg";
+}
+.another-reg{
+    grid-area: another-reg;
+}
+.common-reg{
+    grid-area: common-reg;
+}

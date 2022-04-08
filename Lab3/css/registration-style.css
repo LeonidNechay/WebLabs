@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(245,243,245);
+}
+header{
+    background-color: rgb(176,176,176);
+}
+section{
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.facebook-registration {
+    background-color: rgb(96,129,196);
+    border-radius: 3px;
+    margin: 3px 0px;
+    width: 230px;
+}
+.facebook-registration b{
+    color: white;
+    font-size: 15px;
+    padding: 10px 1px;
+}
+.google-registration{
+    background-color: rgb(66,133,244);
+    border-radius: 3px;
+    margin: 3px 0px;
+    width: 230px;
+}
+.google-registration b{
+    color: white;
+    font-size: 15px;
+    padding: 10px 1px;
+}
+img{
+    padding: 3px 3px 0px;
+}
+.another-reg h3 b{
+    margin-left: 40px;
+}
+input{
+    padding:4px 10px;
+    border:0;
+    font-size:16px;
+    border-bottom: 1px solid #d6d0d5;
+    margin-bottom: 4px;
+}
+.button{
+    border-bottom: 0;
+}
