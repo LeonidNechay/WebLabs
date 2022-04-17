@@ -1,11 +1,11 @@
 let n = prompt("Введіть кількість чисел: ", "");
-let a = [];
+let b = [];
 let num = 0;
 for(i = 0; i < n; i++){
-    a[i] = prompt("Введіть число: ", "");
+    b[i] = prompt("Введіть число: ", "");
 }
 let f = (a) => {
-    for(let index in a)
+    for(let index in b)
     {
         if(index % 2 == 0)
         {
@@ -14,4 +14,4 @@ let f = (a) => {
     }
     return num;
 }
-alert(f(a));
+alert(f(b));
