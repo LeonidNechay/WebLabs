@@ -5,11 +5,11 @@ for(i = 0; i < n; i++){
     b[i] = prompt("Введіть число: ", "");
 }
 let f = (a) => {
-    for(let index in b)
+    for(j = 0; j < n; j++)
     {
-        if(index % 2 == 0)
+        if(b[j] % 2 == 0)
         {
-            num++;
+            num += 1;
         }
     }
     return num;
