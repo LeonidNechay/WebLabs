@@ -1,3 +1,8 @@
+@media screen and (min-width: 400px) {
+    body{
+        font-size: 10px;
+    }
+  }
 body{
     display: grid;
     grid-template-columns: minmax(200px, 250px) auto 200px;
@@ -5,7 +10,7 @@ body{
     grid-template-areas:
     "header header header"              
     "aside content content"
-    "footer footer fotter";
+    "footer footer footer";
     margin: 0;
 }
 header{
@@ -13,6 +18,7 @@ header{
     grid-area: header;
 }
 aside{
+    position: sticky;
     height: 100%;
     width: 240px;
     margin-left: 1px;

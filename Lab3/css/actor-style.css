@@ -32,12 +32,21 @@ input{
     font-weight: bolder;
     border: 1px solid rgb(161, 161, 161);
 }
+.submit-search:hover{
+    background-color: rgb(100, 100, 100);
+}
 .submit-login{
     width: 70px;
     background-color: rgb(202, 202, 202);
     font-weight: bold;
     border: 1px solid rgb(206, 206, 206);
     border-bottom: 0;
+}
+.submit-login:hover{
+    background-color: rgb(100, 100, 100);
+}
+.menu:hover{
+    font-weight: bold;
 }
 section{
     margin-right: 3px;
