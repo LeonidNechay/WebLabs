@@ -76,3 +76,8 @@ tbody td {
     margin-left: 5px;
     margin-right: 5px;
 }
+@media screen and (max-width: 300px) {
+    input{
+        font-size: 8px;
+    }
+}
