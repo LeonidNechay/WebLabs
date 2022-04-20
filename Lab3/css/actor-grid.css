@@ -61,9 +61,9 @@ section{
 footer{
     grid-area: footer;
 }
-@media screen and (max-width: 300px) {
+@media screen and (min-width: 280px) and (max-width: 415px) {
     body{
-        font-size: 8px;
+        font-size: 9px;
         display: grid;
         grid-template-columns: auto;
         grid-template-rows: 20px auto auto 50px;
