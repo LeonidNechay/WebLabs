@@ -1,8 +1,16 @@
-@media screen and (min-width: 400px) {
+@media screen and (width: 300px) {
     body{
-        font-size: 10px;
+        font-size: 8px;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 20px auto auto 50px;
+        grid-template-areas: 
+        "header"
+        "aside"
+        "content"
+        "footer";
     }
-  }
+}
 body{
     display: grid;
     grid-template-columns: minmax(200px, 250px) auto 200px;
