@@ -30,7 +30,7 @@ for(let i = 0; i < 7; i++)
     if(min2 > a2[i])
         min2 = a2[i];
 }
-console.log(a2.indexOf(min)+1);
+console.log(a2.indexOf(min2)+1);
 max2 = a2[0];
 for(let i = 0; i < 7; i++)
 {
