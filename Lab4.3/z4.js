@@ -16,7 +16,7 @@ do
         alert("Ви вже обирали це число");
         continue;
     }
-    sum4 += win[index-1];
+    sum4 += win[index4-1];
     usedIndexes.push(index4);
     alert(`Ваш поточний вийграй: ${sum4}`);
     play = prompt("Ви готові грати далі? (Так/Ні)");
