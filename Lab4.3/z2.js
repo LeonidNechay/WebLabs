@@ -37,4 +37,4 @@ for(let i = 0; i < 7; i++)
     if(max2 < a2[i])
         max2 = a2[i];
 }
-console.log(console.log(a2.indexOf(max2)+1));
+console.log(a2.indexOf(max2)+1);
