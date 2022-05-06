@@ -24,5 +24,7 @@ if(min == 2)
     alert("Ви двійочник");
 else if(min == 3)
     alert("Ви трійочник");
-else
+else if(min == 4 && min == 5)
     alert("Ви хорошист");
+else
+    alert("Вчітся краще");
