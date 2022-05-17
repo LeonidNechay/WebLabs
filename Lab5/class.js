@@ -17,6 +17,9 @@ class GasStationCollection extends GasStation{
         super(a98Litr, a98Price, a95Litr, a95Price, a92Litr, a92Price);
         this.items = items;
     }
+    getByCode(code) {
+        return this.items.find(gasStation => gasStation.code == code)
+    }
     getByName(name) {
         return this.items.find(gasStation => gasStation.name == name)
     }
@@ -42,6 +45,20 @@ class GasStationCollection extends GasStation{
         }
         else
             throw("Incorect value");
+    }
+    edit(code, newGasStation) {
+        let gasStation = this.getByCode(code);
+        if (!gasStation)
+            throw "Not found";
+        for (let key of ["name", "address", "a98Litr", "a98Price", "a95Litr", "a95Price", "a92Litr", "a92Price"])
+            if (newGasStation[key])
+                gasStation[key] = newGasStation[key];
+    }
+    delete(code){
+        let gasStationCode = this.items.findIndex(gasStation => gasStation.code == code);
+        if (gasStationCode == -1)
+            throw "Not found";
+        this.items.splice(gasStationCode, 1);
     }
 }
 let gasStations = new GasStationCollection();
