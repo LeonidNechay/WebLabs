@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Lab6</title>
+</head>
+<body>
+    <div class="getMarkOfGas">
+        <h1>АЗС</h1><br>
+        <input type="text" placeholder="Назва АЗС" id="nameStation"><br>
+        <input type="text" placeholder="Марка палива" id="nameGas"><br>
+        <button onclick="return gasStations.getMarkOfGas(document.getElementById('nameStation').value, document.getElementById('nameGas').value)">Показати</button><br>
+        <input type="text" placeholder="Кількість палива" id="litrHTML"><br>
+        <input type="text" placeholder="Ціна палива" id="priceHTML">
+    </div>
+    <div id="table"></div>
+    <script src="class.js"></script>
+</body>
+</html>
