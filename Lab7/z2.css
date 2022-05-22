@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(37,101,142);
+    font-family: Noto Sans, sans-serif;
+}
+.main{
+    background-color: white;
+    position:absolute;
+    top: 20%;
+    left: 33%;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+.input-index{
+    font-size: 16px;
+    border:none;
+    border-bottom: 2px solid grey;
+    padding: 5px;
+    outline: none;
+    margin: 30px 0px 30px 20px;
+}
+.input-index:focus{
+    border-bottom: 2px solid black;
+}
+.button-index{
+    padding: 9px;
+    font-size: 16px;
+    border:none;
+    margin: 30px 20px 30px 0px;
+}
+.button-index:hover{
+    background-color: rgb(230,230,230);
+}
+.content{
+    display: flex;
+    margin: 0px 20px;
+}
+.positive{
+    margin: 7px;
+    color:grey;
+}
+.positive-hidden{
+    visibility: hidden;
+    position: absolute;
+    width: auto;
+    padding: 7px;  
+    top: 135px;
+    left:5%;
+    z-index: 10;
+}
+.negative{
+    margin: 7px;
+    color:grey;
+}
+.negative-hidden{
+    visibility: hidden;
+    position: absolute;
+    width: auto;
+    padding: 7px;  
+    top: 135px;
+    left:5%;
+    z-index: 10;
+}
+.neutral{
+    margin: 7px;
+    color:grey;
+}
+.neutral-hidden{
+    visibility: hidden;
+    position: absolute;
+    width: auto;
+    padding: 7px;  
+    top: 135px;
+    left:5%;
+    z-index: 10;
+}

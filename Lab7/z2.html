@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="z2.css">
+    <title>Завдання 2</title>
+</head>
+<body>
+    <div class="main">
+        <div class="input">
+            <input type="number" class="input-index" placeholder="Enter tab index" id="index">
+            <button class="button-index" onclick="return Show(document.getElementById('index').value)">Change tab</button>
+        </div>
+        <div class="content">
+            <div class="positive-content">
+                <div class="positive" onclick="return Show('1')"><b id="a">POSITIVE</b></div>
+                <div class="positive-hidden"  id="1">Positive content</div>
+            </div>
+            <div class="negative-content">
+                <div class="negative" onclick="return Show('2')"><b id="b">NEGATIVE</b></div>
+                <div class="negative-hidden"  id="2">Negative content</div>
+            </div>
+            <div class="positive-content">
+                <div class="neutral" onclick="return Show(3)"><b id="c">NEUTRAL</b></div>
+                <div class="neutral-hidden" id="3">Neutarl content</div>
+            </div>
+        </div>
+    </div>
+    <script src="z2.js"></script>
+</body>
+</html>

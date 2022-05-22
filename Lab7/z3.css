@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(209,89,75);
+    font-family: Noto Sans, sans-serif;
+}
+.main{
+    background-color: white;
+    position:absolute;
+    top: 20%;
+    left: 33%;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+}
+.input{
+    margin: 22px;
+    border-bottom: 1px solid grey;
+}
+input{
+    font-size: 16px;
+    border:none;
+    outline: none;
+    margin-bottom: 20px;
+    width: 300px;
+}
+.box{
+    margin: 1px 22px;
+    padding: 10px;
+    border-radius: 4px;
+}
